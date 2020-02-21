@@ -12,12 +12,12 @@ from io import BytesIO
 import pickle
 import os
 
-
+cookies = None
 
 def main():
-    login()
-def connect():
-    return
+    cookies = login()
+    
+    
 
 def getPost(postID):
     return
